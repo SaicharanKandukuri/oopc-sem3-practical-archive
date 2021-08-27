@@ -1,34 +1,23 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-class Date
-{
-    private:
-    int dd, mm, yy;
-    public:
-    void assign(int d, int m, int y)
-    {
-        dd = d; mm = m ; yy = y;
+class Date{
+    int dd,mm,yy;
+public:
+    Date(int x,int y,int z){
+        dd=x;
+        mm=y;
+        yy=z;
     }
-    void display()
-    {
-        cout << dd << "-" << mm << "-" << yy <<endl;
+    ~Date(){
+        cout<<"Destructor called"<<endl;
     }
-    void assign()
-    {
-        cout << "distrctor called";
+void display(){
+    cout<<"Date is: "<<dd<<"-"<<mm<<"-"<<yy<<endl;
     }
 };
-int main()
-{
-    Date D1,D2;
+int main(){
+    Date D1(12,02,2019);
     D1.display();
-    D1.assign(12,02,2019);
-    D1.display();
-    D1.assign();
+    Date D2(15,3,2019);
     D2.display();
-    D2.assign(15,03,2019);
-    D2.display();
-    D2.assign();
 }
-//TODO: verify
