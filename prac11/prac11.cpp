@@ -64,7 +64,6 @@ class employee:public item {
         cout<<"Employee code: "<<employee_code<<endl;
         cout<<"Employee name: "<<employee_name<<endl;
     }
-
 };
 
 class customer:public item {
