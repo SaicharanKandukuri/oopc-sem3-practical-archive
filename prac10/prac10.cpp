@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 // class employee derives information from admin and account and derive information from person class
 // define four classes and update information contained employee class
 class admin {

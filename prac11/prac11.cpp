@@ -17,6 +17,7 @@ class item {
         char item_name[30];
         double cost;
         double discount;
+    
     public:
     void getdata()
     {
@@ -42,8 +43,6 @@ class item {
     {
         return cost-((cost*discount)/100);
     }
-
-    
 };
 class employee:public item {
     private:
@@ -64,7 +63,6 @@ class employee:public item {
         cout<<"Employee code: "<<employee_code<<endl;
         cout<<"Employee name: "<<employee_name<<endl;
     }
-
 };
 
 class customer:public item {

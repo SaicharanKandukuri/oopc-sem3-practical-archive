@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 inline void add(int a, int b)
 {
     int   ad  = a+b;
@@ -27,7 +25,6 @@ inline void mod(int a, int b)
     int   mod = a%b;
     cout << "| modulus -> "<< mod << " |" << endl;
 }
-
 int main()
 {
     int a,b;

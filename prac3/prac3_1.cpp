@@ -1,16 +1,13 @@
 #include <iostream>
-
 // 3.1 Write a program to print Fibonacci series 0,1,1,2,3,5 using function.(For Looping, Condition,
 // Function)
 using namespace std;
-
 int fibonacci(int n)
 {
     int n1=0;
     int n2=1;
     int nth;
     int count = 0;
-
     if (n <=0)
     {
         cout << "Neagitive numbers wont work here" << endl;
@@ -30,7 +27,6 @@ int fibonacci(int n)
             n2=nth;
             count += 1;
         }
-        
     }
 return 0;
 }
