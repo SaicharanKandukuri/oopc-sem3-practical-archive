@@ -1,5 +1,5 @@
-prac_8.1
-#include<iostream>
+# prac_8.1
+#include <iostream>
 using namespace std;
 
 class over
