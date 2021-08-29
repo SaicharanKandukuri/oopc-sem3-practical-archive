@@ -43,8 +43,6 @@ class item {
     {
         return cost-((cost*discount)/100);
     }
-
-    
 };
 class employee:public item {
     private:
