@@ -8,7 +8,6 @@ class Box{
         cout<<"Length:";cin>>l;
         cout<<"Breadth:";cin>>b;
         cout<<"Height:";cin>>h;
-
     }
     void printval(){
         cout<<"\nLength is :"<<l<<"\nBreadthis :"<<b<<"\nHeightis :"<<h<<endl;
@@ -20,6 +19,5 @@ int main(){
         cout<<"For Box "<<i+1<<endl;
         B[i].assignval();
         B[i].printval();
-
     }
 }
