@@ -17,6 +17,7 @@ class item {
         char item_name[30];
         double cost;
         double discount;
+    
     public:
     void getdata()
     {
